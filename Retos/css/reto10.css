@@ -1,0 +1,10 @@
+
+  img {
+    filter: invert(100%);
+  }
+  #ejemplo1 {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
