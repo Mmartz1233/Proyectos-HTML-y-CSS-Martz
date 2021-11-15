@@ -5,7 +5,7 @@
 	<title>The Space Station 2</title>
 	<link rel="stylesheet" href="./css/one_page_website.css">
 	<link rel="stylesheet" href="./css/animations.css">
-	
+	<script src="JS/one_page_website.js" defer></script>
 </head>
 <body>
 
@@ -29,6 +29,7 @@
 		<span class="head-main">Adopt animals</span>
 	</div>
 </div>	
+
 </div>
 <!--END HOME-->
 
@@ -38,16 +39,30 @@
 <div id="gallery">
 	<div class="container">
 		<h1>Gallery</h1>
-		<div class="flex-container">
-			<!-----------------------contenerdor de fotos 1-->
+		
+		<div class="flex-container"> 
+			<!------------------------contenerdor de fotos 1-->
 			<div class="photo-container">
 				<div class="photo">
 					<img src="./images/thumbnail_1.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
+						
 					</div>
 				</div>
+				
 			</div>
 			<!-----------------------fin contenedor de fotos-->
 
@@ -56,20 +71,42 @@
 				<div class="photo">
 					<img src="./images/thumbnail_2.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
 			<!-----------------------fin contenedor de fotos-->
 
-						<!-----------------------contenerdor de fotos 3-->
+						<!------------------------contenerdor de fotos 3-->
 			<div class="photo-container">
 				<div class="photo">
 					<img src="./images/thumbnail_3.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -80,8 +117,19 @@
 				<div class="photo">
 					<img src="./images/thumbnail_4.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotionsy!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -92,8 +140,19 @@
 				<div class="photo">
 					<img src="./images/thumbnail_5.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -104,8 +163,19 @@
 				<div class="photo">
 					<img src="./images/thumbnail_6.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -116,8 +186,19 @@
 				<div class="photo">
 					<img src="./images/thumbnail_7.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -128,8 +209,19 @@
 				<div class="photo">
 					<img src="./images/thumbnail_8.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
@@ -140,19 +232,83 @@
 				<div class="photo">
 					<img src="./images/thumbnail_9.png" alt="" >
 					<div class="photo-overlay">
-						<h3>Click to Enlarge</h3>
-						<p>We have several options to adopt, ask about our promotions!</p>
+						<div class="column">
+							<img src="./images/thumbnail_2.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_3.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_4.PNG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/thumbnail_5.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						  </div>
+
 					</div>
 				</div>
 			</div>
 			<!-----------------------fin contenedor de fotos-->
-
-
 		</div>
+
 	</div>
 </div>
 </section>
 <!--END GALERRY-->
+<!--empieza modal-->
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="./images/thumbnail_1.PNG" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="./images/thumbnail_2.PNG" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="./images/thumbnail_3.PNG" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="./images/thumbnail_4.PNG" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="./images/thumbnail_1.PNG" onclick="currentSlide(1)" alt="Nature">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/thumbnail_2.PNG" onclick="currentSlide(2)" alt="Snow">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/thumbnail_3.PNG" onclick="currentSlide(3)" alt="Mountains">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/thumbnail_4.PNG" onclick="currentSlide(4)" alt="Lights">
+	  </div>
+	</div>
+  </div>
+<!--termina modal-->
 
 
 <!------------------------RSVP-->
